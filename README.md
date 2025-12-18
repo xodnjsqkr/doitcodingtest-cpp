@@ -1,3 +1,2 @@
-# xodnjsqkr-doitcodingtest-cpp
 Do it! 알고리즘 코딩테스트 C++ 책을 보며 정리한 내용 기록한 repository 입니다.  
 2025/12/18 공부시작
