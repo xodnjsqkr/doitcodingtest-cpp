@@ -137,6 +137,18 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+# 1. 모든 파일을 무시
+*
+
+# 2. 디렉토리 구조는 유지 (안에 있는 파일을 찾기 위함)
+!*/
+# 3. 특정 확장자를 가진 파일만 허용 (예외 처리)
+!*.txt
+!*.cpp
+!*.md
+!*.h
+!*.py
+!*.java
 
 # 디버그 심볼 폴더 (test.dSYM 등 모든 .dSYM 폴더) 제외
 *.dSYM/
