@@ -100,11 +100,6 @@ Temporary Items
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -142,5 +137,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# 디버그 심볼 폴더 (test.dSYM 등 모든 .dSYM 폴더) 제외
+*.dSYM/
+# 빌드 시 생성되는 기타 폴더 예시
+build/
+bin/
+obj/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,visualstudiocode,git,c++
